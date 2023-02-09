@@ -30,3 +30,71 @@ fun main() {
    //Int - 
    //
 }
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    fun main() {
+
+    //Tipos de variáveis:
+    //
+    //string - armazena valores de texto -dentro de "" ==> ex: "abóbora"
+    //Int - armazena números inteiros ==> 7042
+    //Flaat - armazena números reais(no geral) -necessita de um f o valor ==>72.24f
+    //Double - armazena números quebrado(de formas arredondadas) ==> 7.15
+    //Long - armazena números longos ==> 56546831355.4313814268
+    //Boolean - verdadeiro ou falso ==> true, false
+    //
+    
+    /*
+  
+    var cr7 = "Cristiano Ronaldo"
+    var champions = 5
+    var altura = 1.87
+
+    //Contatenação
+
+    println("O nome dele é " + cr7 + ", ele tem " + champions)
+    println(" titúlos de Champions League e ele tem " + altura + " de altura siiiiuuu")
+
+    var  laPulga = "Lionel Messi"
+    var Champions = 4
+    var AlturaDele = 1.71
+
+    print("o nome dele é $laPulga, ele tem $Champions títulos de champions e ele tem apenas $AlturaDele de altura")
+    
+    //Faça uma apresentação de si mesmo, usando no mínimo
+    //5 variaveis e usando o método de contatenação
+    
+    var nome = "Abraão"
+    var sobreNome = "Gomes"
+    var dia = 25
+    var mes = "setembro"
+    var ano = "2008"
+        
+    print("o meu nome é $nome, meu soblre nome é $sobreNome, naci no dia $dia no mes $mes no ano de $ano")
+    
+    
+        
+    //Operadores matemáticas
+    //
+    // + => adição
+    // - => subtração
+    // / => divisão
+    // * => multiplicação
+    // % => módulo
+    // 
+    
+    //println()
+    //
+    //Operador Relacionais
+    //
+    //
+    // == => igual
+    // != => diferente
+    // > => maior que...
+    // < => menor que...
+    // >= => maior ou igual a...
+    // <= => menor ou igual a...
+    
+    */
+}
+
