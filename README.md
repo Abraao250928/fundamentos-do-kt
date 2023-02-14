@@ -98,3 +98,102 @@ fun main() {
     */
 }
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/*
+fun main() {
+   //Tipos de variáveis: 
+    //
+    //String - armazena valores de tipo texto - dentro de ""  ==> ex: "abóbora" 
+    //Int - armazena números inteiros ==> 7042
+    //Float - armazena números reais (no geral) - necessita de um f no valor ==>72.24f
+    //Double - armazena números quebrados(de forma arredondada) ==> 7.15
+    //Long - armazena números longos ==> 54564386546546.784486
+    //Boolean - verdadeiro ou falso ==> true, false
+    
+    var cr7 = "Cristiano Ronaldo" 
+    var numeroChampions = 5 
+    var altura = 1.87
+    
+    //Concatenação
+    
+    
+    
+    var laPulga = "Lionel Messi"
+    var champions = 4
+    var alturaDele = 1.02
+    
+   
+    
+    //Faça uma apresentação de si mesmo, usando no mínimo 
+    //5 variáveis e usando o método de concatenação
+    
+    val nome = "José"
+    val sobrenome = "Nestor"
+    val dia = 5 
+    val mes = "junho"
+    val ano = "1575 a.C." 
+    
+   
+    
+    
+    //Operadores matemáticos
+    //
+    // + => adição
+    // - => subtração
+    // / => divisão
+    // * => multiplicação
+    // % => módulo - o resto de uma divisão
+    
+    //println(15 % 2) 
+    //
+    //Operadores Relacionais 
+    //
+    //
+    // == => igual a...
+    // != => diferente de...
+    // > => maior que... 
+    // < => menor que...
+    // >= -> maior ou igual a...
+    // <= -> menor ou igual a...
+    
+    //desafio Calculadora: fazer um programa que simule uma calculadora
+    //deve ter pelo menos 2 variaveis de tipo Int e pelo menos 4 println's
+    //cada um obtendo um calculo diferente(adiçao, subtraçao,multiplicação
+    //e divisão) que relacionam as duas variáveis neste cálculo :)
+    //
+    // o primeiro que conseguir... chocolate
+    // 
+    //iremos corrigir
+   
+
+   
+   println(" ****************--------************* ")
+   println("**                                   **")
+   println("**                                   **")
+   println("**          hora de calcular         **")
+   println("**                                   **")
+   println("**               :):):)              **")
+   println("**                                   **")
+   println("**                                   **")
+   println("**                                   **")
+   println(" ***************---------************* ") 
+    
+   println("calculos")
+   
+   println("soma")
+   
+   println(9+5)
+   
+   println("subtração")
+   
+   println(85-10)
+   
+   println("divisão")
+   
+   println(5/2)
+   
+   println("multplicação")
+   
+   println(5*6)
+   
+   */
