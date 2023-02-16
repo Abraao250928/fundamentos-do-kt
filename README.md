@@ -197,3 +197,68 @@ fun main() {
    println(5*6)
    
    */
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+  /*
+    //condições
+    //
+    //condição simples
+    //
+    //if --> se...
+    //else --> senão...
+    
+    var lembreiDoChocolate = "sim"
+    
+    if(lembreiDoChocolate ==  "sim"){
+        println("Vou entregar o chocolate para você")
+    }else{
+        println("Chocolate pra todo mundo!!")
+}
+//se a condição for verdadeira,sua ação será executada, senão, outra ação será
+//exrcultada
+//Exercício ---> Faça uma comparação, usando uma comparação, usando uma variável eo if...else, sessa
+//comparação for verdadeira,um resultado deverá ser impresso,senão, outro(resultado)
+//será impresso
+//
+//condições compostas
+ 
+ var corcoes = 1
+
+    if(coracoes == 5){
+        println("você está ótimo bom pra vc")
+    }else if(coracoes == 4){
+        println("ce ta bem")
+    }else if(coracoes == 3){
+        println("ce ta ok, pode comer miojo")
+    }else if(coracoes == 2){
+        println("vc não está bem!!")
+    }else if(coracoes == 1){
+        println("voce está morrendo")
+    }else{
+        println("Se Fudeu :), novo reforso do vasco")
+        
+        
+   var Professor = "sim"
+    
+    if(Profesor ==  "não"){
+        println("to vivo")
+        
+    }else{
+        println("não me procure")
+  */
+    
+    var idade = 18
+    
+    if(idade <= 3){
+        println("você é um nenêm")
+    }else if(idade <= 12){
+        println("você é muito infantil!!")
+    }else if(idade <= 18){
+        println("você é jovem! aproveite sua vida")
+    }else if(idade <=60){
+        println("você é adulto!! pague suas contas")
+    }else if(idade > 60){
+        println("Que que há velinho?")
+    }else{
+        println("pu,pu,pu,pu, pu hj é só pessoal :)")
+}
