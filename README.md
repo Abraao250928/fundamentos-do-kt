@@ -313,3 +313,38 @@ fun main() {
 
 
 }
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+fun main() {
+ 
+   // When - Quando
+   //
+   // Quando uma determinada condição for verdadeira, outra determinada
+   // ação será executada
+   //
+   // Estrutura do When:
+   //
+   // When(var){
+   // valor -> ação a ser executada
+   // outroValor -> ação
+   // maisUm -> ação
+   // outro -> ação
+   // else -> ação
+   // }
+   var mes = 9
+    
+   when(mes){
+       1 -> println("Acapulco - MEX")
+       2 -> println("Paris - FRA")
+       3 -> println("Berlim - ALE")
+       4 -> println("Monaco - MON")
+       5 -> println("Pequin - CHI")
+       6 -> println("Acre - BRA")
+       7 -> println("Roma - ITA")
+       8 -> println("Atenas - GRE")
+       9 -> println("Madrid - ESP")
+       10 -> println("Manchester - ING")
+       11 -> println("Dubai - EAU")
+       else -> println("São Paulo - BRA")
+      }
+}
