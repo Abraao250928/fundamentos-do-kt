@@ -419,3 +419,51 @@ fun main() {
 }
 */
         
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+    // Laços de repetição
+    // While
+    // Do..While
+    //
+    // for - para...
+    // 
+    // for - para cada item de uma lista/ ou qualquer tipo de coleção, será execultada uma
+    // determinada ação
+    // 
+    // estrutura do for:
+    // for (item in list/colection){
+    // ação
+    // }
+    // 
+    /*
+    for(item in 1..10){
+        println(item)
+    }
+    */
+    /*
+    //Exercício: faça a taboada de um número de sua escolha (sem a do 0, a do 1, do 2 e do 10)
+    for(item in 1..1){
+        println(3*1)
+        println(3*2)
+        println(3*3)
+        println(3*4)
+        println(3*5)
+        println(3*6)
+        println(3*7)
+        println(3*8)
+        println(3*9)
+        println(3*10)
+    }
+    */
+    // Repeat - Repita...
+    // 
+    // uma determinada ação será repetida um numero de vezes
+    // 
+    
+    var tartaruga = 1
+    repeat(10){
+        println(tartaruga)
+        tartaruga++
+    }
+    
+}
