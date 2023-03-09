@@ -467,3 +467,53 @@ fun main() {
     }
     
 }
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+    
+    // Colections - Coleções
+    // 
+    // <> --> tags - servem para especificar o tipo de valor a ser listado
+    // 
+    // São determinados conjuntos de itens/valores que podem ser modelados e utlizados em determinados metodos e operações
+    // 
+    // List - Listas
+    // 
+    // Listod --> Lisam itens de tipos variados
+    
+    var genericlist = mutableListOf("Corinthians, arroz e pamonha", 25.7f, 23.974, '$', false)
+    
+    println(genericlist)
+    
+    var specificlist = listOf<String>("Corinthias do Socrats", "Romero", "10" )
+    println(specificlist)
+    
+    
+  //Index - uma posição da cllection
+    
+    //Propriedades - List
+    //
+    //.LastIndex
+    //
+    //println(specificlist.lastIndex())
+    //println(specificlist.first())
+    //println(genericl.size)
+    //
+    //println(specificlist[0])
+    //println(especificlist.indexOf("Corinthians do socrats"))package
+    
+    //Metodos -listOf
+    genericlist.add(2,"easy")
+    println(genericlist)
+    genericlist.remove(23.974)
+    println(genericlist)
+    genericlist.remove(3)
+    println(genericlist)
+    genericlist.set(0,"tartaruga")
+    println(genericlist)
+    genericlist.clear()
+    println(genericlist)
+     var genericlist = setOf("Pedro", "Pelé", "Ronaldinho", "Diniz")
+     println(anotherlist)
+     
+     var animal = mutableMap ("tartaruga" to 0, "jabuti" to 1, "tucano" to 2,)
+}
