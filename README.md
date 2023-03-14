@@ -517,3 +517,106 @@ fun main() {
      
      var animal = mutableMap ("tartaruga" to 0, "jabuti" to 1, "tucano" to 2,)
 }
+------------------------------------------------------------------------------------------------------------------------------------------------
+Solutions
+Docs
+Community
+Teach
+Play
+
+1.8.10
+JVM
+Program arguments
+Copy link
+Share code
+Run
+fun main() {
+    /*
+    // Colections - Coleções
+    // 
+    // <> --> tags - servem para especificar o tipo de valor a ser listado
+    // 
+    // São determinados conjuntos de itens/valores que podem ser modelados e utlizados em determinados metodos e operações
+    // 
+    // List - Listas
+    // 
+    // Listod --> Lisam itens de tipos variados
+    
+    var genericlist = mutableListOf("Corinthians, arroz e pamonha", 25.7f, 23.974, '$', false)
+    
+    println(genericlist)
+    
+    var specificlist = listOf<String>("Corinthias do Socrats", "Romero", "10" )
+    println(specificlist)
+    
+    
+  //Index - uma posição da cllection
+    
+    //Propriedades - List
+    //
+    //.LastIndex
+    //
+    //println(specificlist.lastIndex())
+    //println(specificlist.first())
+    //println(genericl.size)
+    //
+    //println(specificlist[0])
+    //println(especificlist.indexOf("Corinthians do socrats"))package
+    
+    //Metodos -listOf
+    genericlist.add(2,"easy")
+    println(genericlist)
+    genericlist.remove(23.974)
+    println(genericlist)
+    genericlist.remove(3)
+    println(genericlist)
+    genericlist.set(0,"tartaruga")
+    println(genericlist)
+    genericlist.clear()
+    println(genericlist)
+     var genericlist = setOf("Pedro", "Pelé", "Ronaldinho", "Diniz")
+     println(anotherlist)
+     
+     var animal = mutableMapOf("tartaruga" to 0, "jabuti" to 1, "tucano" to 2,)
+     
+     animal.put("capivara incrvel", 5)
+     println(animal)
+     animal.put("leopardo cahapado",9)
+     println(animal)
+     animal.replace("tatu",3)
+     println(animal)
+     */
+    
+    // POO
+    // 
+    // Programação Orientação a Objetos
+    // 
+    // Objetos - estados (características: nome, idade, cpf,  )
+    // 
+    // Comportamentamentos - (andar, comer, dormir, conversar,)
+    // 
+    // Classes - Modelos que servem para constrção de objetos derivados
+    // 
+    val pessoa1 = Pessoa()
+    pessoa1.nome = "Keyla"
+    println(pessoa1.nome)
+    pessoa1.cpf = "445.177.465.78"
+    println(pessoa1.cpf)
+    pessoa1.idade = "99"
+    println(pessoa1.idade)
+    pessoa1.altura = "1.73"
+    println(pessoa1.altura)
+    
+    
+}
+​
+class Pessoa(){
+    //declaração de atributos para a classe Pessoa
+    var nome = ""
+    var cpf = ""
+    var idade = 32
+    var altura = 1.83
+    
+    // Exercícios - Faça uma ficha médica, apontando os resultados do útimo checkup de um clíentes
+    // .Permitindo usar a mesma classe pessoal()
+}
