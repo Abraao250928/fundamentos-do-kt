@@ -609,7 +609,7 @@ fun main() {
     
     
 }
-​
+
 class Pessoa(){
     //declaração de atributos para a classe Pessoa
     var nome = ""
