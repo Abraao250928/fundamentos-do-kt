@@ -620,3 +620,29 @@ class Pessoa(){
     // Exercícios - Faça uma ficha médica, apontando os resultados do útimo checkup de um clíentes
     // .Permitindo usar a mesma classe pessoal()
 }
+fun main() {
+    /*
+class Pessoa(){
+    //declaração de atributos para a classe Pessoa
+    var nome = ""
+    var alergias = ""
+    var idade = 22
+    var altura = 1.73
+    
+    // Exercícios - Faça uma ficha médica, apontando os resultados do útimo checkup de um clíentes
+    // .Permitindo usar a mesma classe pessoal()
+}
+    
+
+
+val pessoa = Pessoa()
+    pessoa.nome =  "aleatorio"
+    println("nome do paciente = " + pessoa.nome)
+    pessoa.alergias = "poeira"
+    println("alergias = " + pessoa.alergias)
+    pessoa.idade = 22
+    println("idade do paciente = " + pessoa.idade)
+    pessoa.altura = 1.73
+    println("altura = " + pessoa.altura)
+}
+*/
