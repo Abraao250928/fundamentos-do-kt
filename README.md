@@ -646,3 +646,21 @@ val pessoa = Pessoa()
     println("altura = " + pessoa.altura)
 }
 */
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+    
+    var jogador1 = JogadorDeFutebol("Neymar JR", "PSG", 10, "Brasil", "Puma", 222.0, "Meia-Atacante")
+    
+    println(jogador1.nome)
+    
+}
+class JogadorDeFutebol(var nome: String,
+                      var time: String,
+                      var numero: Int,
+                      var nacionalidade: String,
+                      var patrocionio: String,
+                      var preco: Double,
+                      var posicao: String){
+    var jogador2 = JogadorDeFutebol("courtois 1,van Dijk 3, marquinhos 4,")
+    
+}
