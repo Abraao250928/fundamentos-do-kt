@@ -681,3 +681,36 @@ fun main() {
     // nomeDoObjeto.nomeDela()
     // 
 }
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+    val contaCorrente = ContaBanco(1519643184874547, 0.5, "Rogers")
+    contaCorrente.consultarSaldo()
+    contaCorrente.Saque(0.3, 2984)
+}
+
+class ContaBanco(val num: Long, var saldo: Double, var dono: String){
+    
+    //Consultar Saldo, Saque e Deposito
+    //
+    fun consultarSaldo(){
+        println("O saldo da sua conta é R$$saldo")
+    }
+    fun Saque(valor: Double, senha: Int){
+        
+        if(senha == 2984){
+            if(valor >= saldo){
+                saldo -= valor //vai subtrair o valor do saldo
+                println("Saque de R$$valor realizado")
+            }else if(valor <= 0){
+                println("Impossível sacar R$$valor")
+            }else{
+                println("Saldo Insuficiente, saque de R$$valor não realizado")
+            }
+        }else{
+            println("Senha Incorreta! Tente novamente")
+        }
+            
+            }
+        }
+        
+    
