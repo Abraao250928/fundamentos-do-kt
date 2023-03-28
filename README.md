@@ -682,6 +682,7 @@ fun main() {
     // 
 }
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+/*
 fun main() {
     val contaCorrente = ContaBanco(1519643184874547, 0.5, "Rogers")
     contaCorrente.consultarSaldo()
@@ -712,5 +713,5 @@ class ContaBanco(val num: Long, var saldo: Double, var dono: String){
             
             }
         }
-        
+       */ 
     
