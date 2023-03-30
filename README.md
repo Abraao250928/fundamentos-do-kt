@@ -714,4 +714,63 @@ class ContaBanco(val num: Long, var saldo: Double, var dono: String){
             }
         }
        */ 
+------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+fun main() {
+    val contaCorrente = ContaBanco(1519643184874547, 2.0, "Eduardo")
+    contaCorrente.consultarSaldo()
+    contaCorrente.deposito(0.5, 2984)
+    contaCorrente.consultarSaldo()
+}
+/*
+class ContaBanco(val num: Long, var saldo: Double, var dono: String){
     
+    //Consultar Saldo, Saque e Deposito
+   
+    fun consultarSaldo(){
+        println("O saldo da sua conta é R$$saldo")
+    }
+    
+    fun Saque(valor: Double, senha: Int){
+        
+        if(senha == 2984){
+            if(valor <= saldo){
+                saldo -= valor //vai subtrair o valor do saldo
+                println("Saque de R$$valor realizado")
+            }else if(valor >= 0){
+                println("Impossível sacar R$$valor")
+            }else{
+                println("Saldo Insuficiente, saque de R$$valor não realizado")
+            }
+        }else{
+            println("Senha Incorreta! Tente novamente")
+        
+        }
+    }
+}
+*/
+class ContaBanco(val num: Long, var saldo: Double, var dono: String){
+    
+    //Consultar Saldo, Saque e Deposito
+    
+    fun consultarSaldo(){
+        println("O saldo da sua conta é R$$saldo")
+    }
+    
+    fun deposito(valor: Double, senha: Int){
+        
+        if(senha == 2984){
+            if(valor > 0){
+                saldo += valor //vai adicionar o valor do saldo
+                println("deposito de R$$valor realizado")
+            }else if(valor <= 0){
+                println("Impossível depositar R$$valor")
+            }else{
+                println(" deposito de R$$valor não realizado")
+            }
+        }else{
+            println("Senha Incorreta! Tente novamente")
+        
+        }
+    }
+}
